@@ -329,3 +329,107 @@
 .button-wrapper-new--small {
 	margin-top: 15px;
 }
+
+@media screen and (max-width: 1200px) {
+  .homepage-content__main-top-news {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    order: 1;
+  }
+
+  .homepage-content__main-top-sidebar {
+    width: 100%;
+    order: 2;
+  }
+
+  .homepage-content__main-top {
+    flex-wrap: wrap;
+    padding-right: 25px;
+  }
+
+  .homepage-content__main {
+    width: 75%;
+  }
+
+  .homepage-content__sidebar {
+    width: 25%;
+  }
+
+  .title-new {
+    font-size: 26px;
+  }
+
+  .homepage-news-new__title {
+    font-size: 15px;
+  }
+
+  .homepage-news-new {
+    margin-bottom: 25px;
+  }
+
+  .coaches-new {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .coaches-new h3 {
+    width: 100%;
+  }
+
+  .coach-new {
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .coach__title {
+    font-size: 15px;
+  }
+
+  .coach__pts {
+    font-size: 12px;
+  }
+
+  .homepage-calender-new__item-full-date {
+    font-size: 15px;
+  }
+
+  .homepage-results-new__item-title {
+    font-size: 15px;
+  }
+
+  .homepage-results-new__table td {
+    font-size: 15px;
+  }
+
+  .homepage-gallery-new__item {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .homepage-content {
+    display: block;
+  }
+
+  .homepage-content__main {
+    width: 100%;
+  }
+
+  .homepage-content__main-top {
+    padding-right: 0;
+  }
+
+  .homepage-content__sidebar {
+    width: 100%;
+  }
+
+  .homepage-content__main-calendar {
+    padding-right: 0;
+  }
+
+  .homepage-content__sidebar {
+    margin-top: 25px;
+  }
+}
